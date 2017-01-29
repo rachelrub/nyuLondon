@@ -1,0 +1,33 @@
+body	{ 
+	background:url(Group.png)  no-repeat center center fixed; 
+	background-attachment: relative; 
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: 100% cover;
+  	width: 100%;
+  	align: center;
+  	text-align: center;
+  	color: #fff;
+  	}
+.navbar-inverse {
+	background-image: none;
+	background-color: #541182;
+}
+.header {
+	float: center;
+	padding: 100px;
+}
+.footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    background-color: #541182;
+}
+.footer-navigation-top-wrapper {
+	background: #220337;
+}
+.footer-navigation-bottom-wrapper {
+	background: #000;
+}
