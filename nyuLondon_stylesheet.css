@@ -1,4 +1,4 @@
-body	{ 
+body { 
 	background:url(Group.png)  no-repeat center center fixed; 
 	background-attachment: relative; 
     -webkit-background-size: cover;
@@ -9,25 +9,78 @@ body	{
   	align: center;
   	text-align: center;
   	color: #fff;
-  	}
+  	display: block;
+  	margin: 0;
+ 	padding: 0;
+ }
+ div {
+ 	margin: 0;
+ 	padding: 0;
+ }
+ .container-fluid {
+ 	margin: 0;
+	padding: 0;
+ }
 .navbar-inverse {
 	background-image: none;
 	background-color: #541182;
+}
+.navbar-inverse .navbar-toggle {
+	border: none;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	background-color: #220337;
+
+}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+	color: #CDCDCD;
+}
+.navbar-inverse .navbar-brand {
+	color: #fff;
 }
 .header {
 	float: center;
 	padding: 100px;
 }
 .footer {
-    position: fixed;
+    position: relative;
+    float: bottom;
+    display: inline-block;
+    clear: both;
+    margin-top: 35%;
     height: 100px;
     bottom: 0;
     width: 100%;
-    background-color: #541182;
+    text-align: left;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 
+}
+h6 {
+	margin: 0;
+}
+.footer-navigation {
+	width: 100%
 }
 .footer-navigation-top-wrapper {
 	background: #220337;
+	line-height: 200%;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
 }
 .footer-navigation-bottom-wrapper {
 	background: #000;
+	line-height: 200%;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+.footer-navigation-top-wrapper {
+	margin: 0;
+}
+.footer-navigation-bottom-wrapper {
+	margin: 0;
 }
