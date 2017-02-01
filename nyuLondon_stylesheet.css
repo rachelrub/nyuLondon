@@ -1,5 +1,5 @@
 body { 
-	background:url(Group.png)  no-repeat center center fixed; 
+	background:url(./images/background.png)  no-repeat center center fixed; 
 	background-attachment: relative; 
     -webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -78,6 +78,10 @@ ul {
 .footer-menu {
 	display: inline-block;
 	padding: 15px;
+}
+.footer-menu>img {
+	width:auto;
+	height:20px;
 }
 h6 {
 	margin: 0;
